@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Year of Smiles | Happy Birthday Muskan</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#f8e8ff,#ffe6f2);
+overflow-x:hidden;
+color:#444;
+}
+
+section{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+padding:40px 20px;
+text-align:center;
+}
+
+h1,h2{
+font-family:'Playfair Display',serif;
+}
+
+.glass{
+background:rgba(255,255,255,0.3);
+backdrop-filter:blur(12px);
+border-radius:25px;
+padding:30px;
+box-shadow:0 8px 30px rgba(0,0,0,0.08);
+max-width:900px;
+}
+
+#countdown{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(135deg,#f4d9ff,#ffd6eb);
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:120px;
+font-weight:bold;
+z-index:9999;
+color:white;
+}
+
+.hero{
+background:linear-gradient(135deg,#eecbff,#ffd9eb);
+}
+
+.hero h1{
+font-size:4rem;
+color:#6c4a82;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:700px;
+}
+
+.sparkle{
+position:fixed;
+width:6px;
+height:6px;
+background:gold;
+border-radius:50%;
+animation:float 10s linear infinite;
+opacity:.6;
+}
+
+@keyframes float{
+from{
+transform:translateY(100vh);
+}
+to{
+transform:translateY(-100px);
+}
+}
+
+.timeline{
+display:flex;
+flex-direction:column;
+gap:30px;
+width:100%;
+max-width:900px;
+}
+
+.memory{
+background:white;
+padding:20px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.memory img{
+width:100%;
+border-radius:15px;
+margin-top:10px;
+}
+
+.message{
+line-height:2;
+font-size:1.1rem;
+text-align:left;
+}
+
+.meter{
+width:100%;
+max-width:700px;
+}
+
+.bar{
+background:#eee;
+border-radius:50px;
+overflow:hidden;
+margin:20px 0;
+}
+
+.fill{
+height:30px;
+background:linear-gradient(90deg,#d98cff,#ff9ecf);
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-weight:bold;
+}
+
+button{
+padding:15px 30px;
+border:none;
+border-radius:50px;
+background:#d98cff;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+.hiddenMessage{
+display:none;
+margin-top:20px;
+font-size:1.3rem;
+color:#6c4a82;
+}
+
+.cake{
+font-size:120px;
+animation:bounce 2s infinite;
+}
+
+@keyframes bounce{
+50%{
+transform:translateY(-15px);
+}
+}
+
+.final{
+background:linear-gradient(135deg,#f0d6ff,#ffe2ef);
+}
+
+.final h1{
+font-size:3rem;
+margin-bottom:20px;
+}
+
+.final p{
+font-size:1.3rem;
+line-height:2;
+}
+
+footer{
+padding:40px;
+text-align:center;
+font-size:18px;
+color:#6c4a82;
+}
+
+.confetti{
+position:fixed;
+top:-10px;
+width:10px;
+height:10px;
+animation:fall linear forwards;
+}
+
+@keyframes fall{
+to{
+transform:translateY(110vh) rotate(720deg);
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="countdown">3</div>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop controls style="display:none;">
+<source src="tumsehi-piano.mp3" type="audio/mpeg">
+</audio>
+
+<!-- SPARKLES -->
+<script>
+for(let i=0;i<50;i++){
+let s=document.createElement("div");
+s.className="sparkle";
+s.style.left=Math.random()*100+"%";
+s.style.animationDuration=(5+Math.random()*10)+"s";
+document.body.appendChild(s);
+}
+</script>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>🎂 Happy Birthday Muskan ✨</h1>
+
+<p>
+To someone who makes ordinary days a little brighter.
+</p>
+
+<br>
+
+<div class="glass">
+
+<h2>A Year of Smiles 💜</h2>
+
+<br>
+
+<p>
+From Rachit Jain
+</p>
+
+</div>
+
+</section>
+
+<!-- MESSAGE -->
+
+<section>
+
+<div class="glass message">
+
+<h2>💌 A Letter From My Heart</h2>
+
+<br>
+
+<p>
+
+Happy Birthday, Muskan! 🎂✨
+
+<br><br>
+
+Today is your special day, and I just wanted to take a moment to tell you something from my heart.
+
+<br><br>
+
+Over time, you've become someone very important in my life. You're one of those rare people with whom I can share my thoughts, my happiness, my worries, my random stories, and even the smallest moments of my day.
+
+<br><br>
+
+Thank you for being there through different phases, for the conversations, the laughter, the memories, and even the moments when words were few but your presence still mattered.
+
+<br><br>
+
+I genuinely admire your strength, your kindness, and the way you care about the people around you.
+
+<br><br>
+
+On your birthday, I wish that you always have reasons to smile, people who value you, dreams that come true, and a heart that remains as beautiful as it is today.
+
+<br><br>
+
+May this year bring you happiness, success, peace, good health, and countless unforgettable memories.
+
+<br><br>
+
+Thank you for being you.
+
+<br><br>
+
+Happy Birthday once again, Muskan. 🎉❤️
+
+<br><br>
+
+With lots of good wishes,
+
+<br>
+
+Rachit
+
+</p>
+
+</div>
+
+</section>
+
+<!-- TIMELINE -->
+
+<section>
+
+<h2>📸 Memory Timeline</h2>
+
+<br><br>
+
+<div class="timeline">
+
+<div class="memory">
+<h3>2024</h3>
+<p>Where beautiful memories began.</p>
+<img src="2024.jpeg">
+</div>
+
+<div class="memory">
+<h3>2025</h3>
+<p>Where beautiful memories began.</p>
+<img src="2025-1.jpeg">
+</div>
+
+<div class="memory">
+<h3>2025</h3>
+<p>Where beautiful memories began.</p>
+<img src="2025-2.jpeg">
+</div>
+
+<div class="memory">
+<h3>2025</h3>
+<p>Where beautiful memories began.</p>
+<img src="2025-3.jpeg">
+</div>
+
+<div class="memory">
+<h3>2025</h3>
+<p>A year full of laughter and conversations.</p>
+<img src="2025.jpeg">
+</div>
+
+<div class="memory">
+<h3>2026</h3>
+<p>Another chapter, another year of smiles.</p>
+<img src="2026.jpeg">
+</div>
+
+<div class="memory">
+<h3>2026</h3>
+<p>Where beautiful memories began.</p>
+<img src="2026-1.jpeg">
+</div>
+
+</div>
+
+</section>
+
+<!-- FRIENDSHIP METER -->
+
+<section>
+
+<h2>💖 Friendship Meter</h2>
+
+<div class="meter">
+
+<div class="bar">
+<div class="fill" style="width:100%">
+Kindness 100%
+</div>
+</div>
+
+<div class="bar">
+<div class="fill" style="width:100%">
+Drama ∞
+</div>
+</div>
+
+<div class="bar">
+<div class="fill" style="width:100%">
+Smile Power 1000%
+</div>
+</div>
+
+<div class="bar">
+<div class="fill" style="width:100%">
+Bestie Level Unlimited ♾️
+</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- HIDDEN MESSAGE -->
+
+<section>
+
+<h2>👀 Secret Message</h2>
+
+<br>
+
+<button onclick="showMessage()">
+Click if you're curious 👀
+</button>
+
+<div class="hiddenMessage" id="secret">
+
+❤️ If you've reached this page, it means you were curious enough to click the button. 😊
+
+There is something I don't say often.
+
+Life gives us many people, but only a few become truly special without even trying. You are one of those people.
+
+Thank you for being part of my life, for the conversations, the laughter, the memories, and even for the days when a simple "Haa" was enough to know what was going on.
+
+I don't know what the future holds, but I do know that meeting you has made my journey better.
+
+On your birthday, my wish is simple:
+
+May you always find reasons to smile.
+May your heart always find peace.
+May your dreams find their way to reality.
+And may you always know that you are appreciated more than you realize.
+
+No matter where life takes us, you'll always have a special place in my heart.
+
+Happy Birthday, Muskan. 🎂 ❤️
+
+</div>
+
+</section>
+
+<!-- CAKE -->
+
+<section>
+
+<h2>🎂 Birthday Cake 🎂</h2>
+
+<div class="cake" onclick="celebrate()" style="cursor:pointer;">
+🎂
+</div>
+
+<p>Click the cake to reveal your birthday surprise ✨</p>
+
+<div id="cakeMessage" style="
+display:none;
+margin-top:20px;
+background:white;
+padding:25px;
+border-radius:20px;
+max-width:700px;
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+">
+
+<h3>❤️ Dear Muskan ❤️</h3>
+
+<p>
+Happy Birthday! 🎂✨
+<br><br>
+
+You are one of the most special people in my life.
+<br><br>
+
+Thank you for all the memories, conversations, laughter and moments we've shared.
+<br><br>
+
+May your life always be filled with happiness, success and endless smiles.
+<br><br>
+
+❤️ Rachit
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+🎉 Thank You For Visiting 🎉
+
+</footer>
+
+<script>
+
+let count=3;
+let countdown=document.getElementById("countdown");
+
+let timer=setInterval(()=>{
+
+count--;
+
+if(count>0){
+countdown.innerHTML=count;
+}
+else{
+
+countdown.innerHTML="🎂";
+
+setTimeout(()=>{
+countdown.style.display="none";
+},1000);
+
+clearInterval(timer);
+
+}
+
+},1000);
+
+function showMessage(){
+
+document.getElementById("secret").style.display="block";
+
+}
+
+function celebrate(){
+
+// Show birthday message
+document.getElementById("cakeMessage").style.display = "block";
+
+// Play music
+let music = document.getElementById("bgMusic");
+
+if(music){
+    music.play().catch(err => console.log(err));
+}
+
+// Create confetti
+for(let i=0;i<150;i++){
+
+let conf=document.createElement("div");
+
+conf.className="confetti";
+
+conf.style.left=Math.random()*100+"vw";
+
+conf.style.background=
+["#ff69b4","#ffd700","#d98cff","#ffffff"]
+[Math.floor(Math.random()*4)];
+
+conf.style.animationDuration=
+(3+Math.random()*4)+"s";
+
+document.body.appendChild(conf);
+
+}
+
+}
+
+</script>
+
+<script>
+
+conf.className="confetti";
+	
+conf.style.left=Math.random()*100+"vw";
+
+conf.style.background=
+["#ff69b4","#ffd700","#d98cff","#ffffff","#87ceeb"]
+[Math.floor(Math.random()*5)];
+
+conf.style.animationDuration=
+(3+Math.random()*4)+"s";
+
+document.body.appendChild(conf);
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+</html>
